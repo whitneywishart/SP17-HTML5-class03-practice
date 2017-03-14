@@ -1,0 +1,28 @@
+   h2 {
+     color: rgba(123, 32, 50, 0.4);
+     text-align: center;
+   }
+
+   .info {
+     background-color: yellow;
+   }
+
+   .amendment-title {
+     text-align: center;
+   }
+
+   .amendment-title:hover {
+     color: blue;
+   }
+
+   .amendment-title::first-letter {
+     font-size: 40px
+   }
+/*nested selector - selects the <p> tag inside the info selector*/
+   .info p {
+     width: 50%;
+   }
+
+   [class] {
+     color: purple;
+   }
